@@ -12,15 +12,15 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/placeholder
-      to: /home/vagrant/placeholder
+    - map: "./lumenBareBone"
+      to: "/home/vagrant/lumenbarebone"
 
 sites:
-    - map: placeholder.test
-      to: /home/vagrant/placeholder/public
+    - map: lumenbarebone.test
+      to: "/home/vagrant/lumenbarebone/public"
 
 databases:
-    - placeholder
+    - lumenbarebone
 
 features:
     - mariadb: false

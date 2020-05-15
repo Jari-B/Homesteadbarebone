@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/lumenbarebone":{"type":null,"mount_options":["uid=1000","gid=1000"],"guestpath":"/home/vagrant/lumenbarebone","hostpath":"/Users/jari/Documents/homesteadBareBone/lumenBareBone","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/jari/Documents/homesteadBareBone","disabled":false,"__vagrantfile":true}}}

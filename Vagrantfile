@@ -9,8 +9,8 @@ confDir = $confDir ||= File.expand_path(File.dirname(__FILE__))
 
 homesteadYamlPath = confDir + "/Homestead.yaml"
 homesteadJsonPath = confDir + "/Homestead.json"
-afterScriptPath = confDir + "provision/after.sh"
-alwaysScriptPath = confDir + "provision/always.sh"
+afterScriptPath = confDir + "/provision/after.sh"
+alwaysScriptPath = confDir + "/provision/always.sh"
 customizationScriptPath = confDir + "/user-customizations.sh"
 aliasesPath = confDir + "/aliases"
 
