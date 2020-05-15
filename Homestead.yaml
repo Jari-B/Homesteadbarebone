@@ -3,6 +3,8 @@ ip: "192.168.10.10"
 memory: 2048
 cpus: 2
 provider: virtualbox
+hostname: placeholder
+name: placeholder
 
 authorize: ~/.ssh/id_rsa.pub
 
@@ -10,15 +12,15 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/code
-      to: /home/vagrant/code
+    - map: ~/placeholder
+      to: /home/vagrant/placeholder
 
 sites:
-    - map: homestead.test
-      to: /home/vagrant/code/public
+    - map: placeholder.test
+      to: /home/vagrant/placeholder/public
 
 databases:
-    - homestead
+    - placeholder
 
 features:
     - mariadb: false
